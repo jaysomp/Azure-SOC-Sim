@@ -9,7 +9,7 @@ This project was built using resources on Azure and can be replicated using Azur
 - Set up a **Resource Group** to manage all related resources.
 - Create a **Virtual Network (VNet)** to facilitate communication between resources.
     
-    ![Screenshot from 2025-02-25 12-35-07.png](Azure%20SOC%20Simulation%20Project%20(Microsoft%20Sentinel%202%201a57bf77a5da806f9afbc36db82936f0/Screenshot_from_2025-02-25_12-35-07.png)
+    ![Screenshot from 2025-02-25 12-35-07.png](images/Screenshot_from_2025-02-25_12-35-07.png)
     
 
 ### **2. Deploying the Honeypot (VM)**
@@ -17,7 +17,7 @@ This project was built using resources on Azure and can be replicated using Azur
 - Provisioned a **Windows 10 Pro** virtual machine using the **Standard B1s** instance (1 vCPU, 1 GiB memory).
 - Configured the VM with essential settings for monitoring attacker activity.
     
-    ![Screenshot from 2025-02-25 12-35-31.png](Azure%20SOC%20Simulation%20Project%20(Microsoft%20Sentinel%202%201a57bf77a5da806f9afbc36db82936f0/Screenshot_from_2025-02-25_12-35-31.png)
+    ![Screenshot from 2025-02-25 12-35-31.png](images/Screenshot_from_2025-02-25_12-35-31.png)
     
 
 ### **3. Configuring Network Security Rules**
@@ -26,7 +26,7 @@ This project was built using resources on Azure and can be replicated using Azur
 
 This setup serves as an entry point for malicious actors, allowing for monitoring and analysis of attack patterns using **Microsoft Sentinel**.
 
-![Screenshot from 2025-02-25 12-35-58.png](Azure%20SOC%20Simulation%20Project%20(Microsoft%20Sentinel%202%201a57bf77a5da806f9afbc36db82936f0/Screenshot_from_2025-02-25_12-35-58.png)
+![Screenshot from 2025-02-25 12-35-58.png](images/Screenshot_from_2025-02-25_12-35-58.png)
 
 ### **4. Disabling Firewall for Unrestricted Access**
 
@@ -47,7 +47,7 @@ This setup serves as an entry point for malicious actors, allowing for monitorin
 
 - Used KQL to query security logs within the Log Analytics Workspace, analyzing attack patterns and system activity.
     
-    ![Screenshot from 2025-02-25 12-37-47.png](Azure%20SOC%20Simulation%20Project%20(Microsoft%20Sentinel%202%201a57bf77a5da806f9afbc36db82936f0/Screenshot_from_2025-02-25_12-37-47.png)
+    ![Screenshot from 2025-02-25 12-37-47.png](Azure%20SOC%20Simulation%20Project%20(images/Screenshot_from_2025-02-25_12-37-47.png)
     
 
 ### **9. Adding GeoIP Data in KQL Queries**
@@ -124,7 +124,7 @@ This setup serves as an entry point for malicious actors, allowing for monitorin
 - **Observed the generated attack map**, which now displays the **locations of failed login attempts** based on GeoIP data.
 - This is a snapshot of my Attack Map after running the virtual machine overnight, revealing a diverse range of attack sources from various global locations:
 
-![Screenshot from 2025-02-25 12-34-30.png](Azure%20SOC%20Simulation%20Project%20(Microsoft%20Sentinel%202%201a57bf77a5da806f9afbc36db82936f0/Screenshot_from_2025-02-25_12-34-30.png)
+![Screenshot from 2025-02-25 12-34-30.png](Azure%20SOC%20Simulation%20Project%20(images/Screenshot_from_2025-02-25_12-34-30.png)
 
 ## What I Learned from This Project
 
