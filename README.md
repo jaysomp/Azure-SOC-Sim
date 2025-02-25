@@ -1,5 +1,19 @@
 # Azure SOC Simulation Project (Microsoft Sentinel 2025)
 
+## What I Learned from This Project
+
+By completing this project, I learned a lot about different Azure services and how they work together to create a security operations center (SOC) setup. Setting up the Virtual Machine, configuring Network Security Groups, and working with Microsoft Sentinel gave me a better understanding of how security professionals monitor threats in real time.
+
+One of the biggest takeaways was how important **logs and SIEM tools** are for detecting and responding to attacks. Before this, I didn’t fully realize how much data security teams rely on to catch suspicious activity. Working with **Log Analytics and KQL** made it clear how powerful these tools are for filtering through security events and identifying potential threats.
+
+I also got a deeper understanding of **network security** and how **NSGs** play a major role in protecting cloud-based resources. By intentionally exposing the VM to attacks, I saw firsthand how vulnerable machines are without the right configurations. Disabling the firewall and allowing all inbound traffic quickly turned the VM into a target, reinforcing why proper security measures are necessary in any cloud environment.
+
+Another interesting part was using **GeoIP data** to track where failed login attempts were coming from. It was cool to see real-world attack patterns and understand how attackers operate across different regions. This experience gave me a better idea of how security teams use threat intelligence to analyze and respond to incidents.
+
+Overall, this project showed me the **real impact of security misconfigurations** and how tools like **Microsoft Sentinel, Log Analytics, and KQL** help professionals stay ahead of threats. It was a hands-on way to see how security monitoring works in cloud environments and why proactive defenses are so important.
+
+## How I created this simulation
+
 This project was built using resources on Azure and can be replicated using Azure's free tier.
 
 ## **Setup Process**
@@ -124,19 +138,7 @@ This setup serves as an entry point for malicious actors, allowing for monitorin
 - **Observed the generated attack map**, which now displays the **locations of failed login attempts** based on GeoIP data.
 - This is a snapshot of my Attack Map after running the virtual machine overnight, revealing a diverse range of attack sources from various global locations:
 
-![Screenshot from 2025-02-25 12-34-30.png](Azure%20SOC%20Simulation%20Project%20(images/Screenshot_from_2025-02-25_12-34-30.png)
-
-## What I Learned from This Project
-
-By completing this project, I learned a lot about different Azure services and how they work together to create a security operations center (SOC) setup. Setting up the Virtual Machine, configuring Network Security Groups, and working with Microsoft Sentinel gave me a better understanding of how security professionals monitor threats in real-time.
-
-One of the biggest takeaways was how important **logs and SIEM tools** are for detecting and responding to attacks. Before this, I didn’t fully realize how much data security teams rely on to catch suspicious activity. Working with **Log Analytics and KQL** made it clear how powerful these tools are for filtering through security events and identifying potential threats.
-
-I also got a deeper understanding of **network security** and how **NSGs** play a major role in protecting cloud-based resources. By intentionally exposing the VM to attacks, I saw firsthand how vulnerable machines are without the right configurations. Disabling the firewall and allowing all inbound traffic quickly turned the VM into a target, reinforcing why proper security measures are necessary in any cloud environment.
-
-Another interesting part was using **GeoIP data** to track where failed login attempts were coming from. It was cool to see real-world attack patterns and understand how attackers operate across different regions. This experience gave me a better idea of how security teams use threat intelligence to analyze and respond to incidents.
-
-Overall, this project showed me the **real impact of security misconfigurations** and how tools like **Microsoft Sentinel, Log Analytics, and KQL** help professionals stay ahead of threats. It was a hands-on way to see how security monitoring works in cloud environments and why proactive defenses are so important.
+![Screenshot from 2025-02-25 12-34-30.png](images/Screenshot_from_2025-02-25_12-34-30.png)
 
 ### **Reference & Inspiration**
 
