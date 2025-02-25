@@ -47,7 +47,7 @@ This setup serves as an entry point for malicious actors, allowing for monitorin
 
 - Used KQL to query security logs within the Log Analytics Workspace, analyzing attack patterns and system activity.
     
-    ![Screenshot from 2025-02-25 12-37-47.png](Azure%20SOC%20Simulation%20Project%20(images/Screenshot_from_2025-02-25_12-37-47.png)
+    ![Screenshot from 2025-02-25 12-37-47.png](images/Screenshot_from_2025-02-25_12-37-47.png)
     
 
 ### **9. Adding GeoIP Data in KQL Queries**
